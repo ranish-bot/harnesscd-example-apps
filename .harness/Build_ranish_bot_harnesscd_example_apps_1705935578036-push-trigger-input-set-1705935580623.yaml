@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ranish_bot_harnesscd_example_apps_1705935578036-push-trigger-input-set
+  identifier: Build_ranish_bot_harnesscd_example_apps_1705935578036pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Dev1
+  pipeline:
+    identifier: Build_ranish_bot_harnesscd_example_apps_1705935578036
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
